@@ -1,0 +1,394 @@
+*{
+    font-family: "Federo", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#resturant{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+#a-resturant{
+    position: relative;
+    right: 100px;
+    text-decoration: none;
+    color: white;
+    font-size: 70px;
+}
+
+#a-resturant:hover{
+    border: solid;
+}
+
+#resturant span{
+    color: black;
+}
+
+#resturant:hover span{
+    color: red;
+}
+
+#navbar{
+    margin-top: -25px;
+    background-attachment: fixed;
+    background-color: gold;
+}
+
+#nav-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.logo{
+    position: relative;
+    right: 280px;
+    top: 50px;
+}
+#nav-div a{
+    margin: 30px;
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+}
+#nav-div a:hover{
+    background-color: black;
+    color: gold;
+    font-size: 16px;
+}
+
+.order{
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 13px;
+    font-weight: bold;
+    border: solid;
+    background-color: gold;
+}
+
+.order:hover{
+    background-color: black;
+    color: gold;
+    cursor: pointer;
+}
+
+#special{
+    background-image: url(images/fresh-gourmet-meal-beef-taco-salad-plate-generated-by-ai.jpg);
+    background-size: cover;
+    height: 70vh;
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+#special h1{
+    margin-top: -120px;
+    font-size: 90px;
+}
+
+#special p{
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn{
+    width: 160px;
+    height: 50px;
+    background-color: transparent;
+    color: gold;
+    border: solid;
+    border-color: gold;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 170px;
+}
+
+.btn:hover{
+    background-color: gold;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#b1{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.btn-first{
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+}
+
+#food-items{
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.img1{
+    margin-top: 30px;
+    margin: 100px ;
+}
+
+.img1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.img2{
+    margin-top: 30px;
+    margin: 100px;
+}
+
+.img2:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#div-img1{
+    text-align: center;
+}
+
+#div-img1 h1{
+    font-size: 50px;
+    margin-top: -80px;
+    font-weight: bold;
+}
+
+#div-img1 p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#div-img1 button{
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    border: solid;
+    background-color: gold;
+}
+
+#div-img1 button:hover{
+    background-color: black;
+    color: gold;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#div-img2{
+    text-align: center;
+}
+
+#div-img2 h1{
+    font-size: 50px;
+    margin-top: -80px;
+    font-weight: bold;
+}
+
+#div-img2 p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#div-img2 .gettickt{
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    border: solid;
+    background-color: gold;
+}
+
+#div-img2 .gettickt:hover{
+    
+    background-color: black;
+    color: gold;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#menu{
+    background-color: gold;
+    position: relative;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#food-img{
+    margin-left: 102px;
+}
+
+.food1{
+    margin-top: 130px;
+    margin-left: 350px;
+}
+
+.food1:hover{
+    transform: translatex(-20px);
+    transition: 1s;
+}
+
+.food2:hover{
+    transform: translatex(20px);
+    transition: 1s;
+}
+
+#menu-title{
+    margin-top: 150px;
+    text-align: justify;
+}
+#menu-title h1{
+    text-align: center;
+    font-size: 50px;
+    margin-left: 300px;
+}
+
+#menu-title p{
+    position: relative;
+    font-size: 20px;
+    left: 200px;
+    top: 30px;
+}
+
+.peep{
+    margin-top: 50px;
+    margin-left: 280px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    border: solid;
+    background-color: gold;
+}
+
+.peep:hover{
+    
+    background-color: black;
+    color: gold;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#menu-2{
+    background-color: gold;
+    height: 100%;
+    display: flex;
+}
+
+#menu-2 img{
+    margin-top: 100px;
+}
+
+#menu-2 #catering{
+    height: 100vh;
+    margin-top: 120px;
+    margin-left: 250px;
+}
+
+#catering h1{
+    font-size: 50px;
+}
+
+#catering p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#catering button{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    border: solid;
+    background-color: gold;
+}
+
+#catering button:hover{
+    background-color: black;
+    color: gold;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#footer{
+    background-color: black;
+    height: 200px;
+    color: white;
+}
+
+#footer ul{
+    float: inline-end;
+    display: flex;
+    list-style: none;
+}
+
+#list{
+    padding: 3px;
+}
+
+.lists li{
+    margin: 20px;    
+}
+
+.lists a{
+    color: gold;
+}
+
+.email{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: gold;
+    border: solid;
+    margin-top: -50px;
+    font-weight: bold;
+}
+
+.email:hover{
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+}
+
+#fa-icons i{
+    color: gold;
+    position: relative;
+    top: 50px;
+    left: 50px; 
+    margin: 10px;   
+}
+
+#fa-icons i:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.a-end{
+    position: relative;
+    color: gold;
+    text-align: center;
+    font-size: 10px;
+    top: 100px;
+    left: 650px;
+}
+
+.a-end:hover{
+    color: white;
+}
+
+
+
